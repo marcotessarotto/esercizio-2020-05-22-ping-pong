@@ -15,7 +15,7 @@ proc_figlio riceve il valore 0, lo incrementa (=1) e lo manda a proc_padre attra
 proc_padre riceve il valore 1, lo incrementa (=2) e lo manda a proc_figlio attraverso pipeA.
 proc_figlio riceve il valore 2 .....
 ```
-fino a MAX_VALUE, quando termina il programma.
+fino a MAX_VALUE, quando termina il programma (il primo processo che arriva a MAX_VALUE fa terminare il programma).
 
 ```
 #define MAX_VALUE 1000000
